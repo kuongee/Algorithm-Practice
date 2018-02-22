@@ -14,10 +14,10 @@ The queue can be implemented with two stacks.
 2. Stack
 	- Last In First Out
 
-	==================+<br />
-	top <- pop &nbsp;&nbsp;&nbsp;|<br/>
-            -> push&nbsp;&nbsp;&nbsp;|<br/>
-	==================+<br />
+		==========+<br />
+	top <- pop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+            -> push&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+	==========+<br />
 
 	- Elements are pushing to **top** and poping from the **top**.
 
@@ -39,16 +39,16 @@ On the other hands, if the second stack isn't empty, the queue should delete the
 
 Inserting<br/>
 |<br/>
-|	<stack1><br/>
+|	**stack1**<br/>
 |	=========+<br/>
-+---->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |<br/>
-+--------- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   |   	   <br/>
++---->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |<br/>
++--------- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |   	   <br/>
 |	=========+<br/>
 |	<br/>
-|	<stack2><br/>
+|	**stack2**<br/>
 |	=========+<br/>
-+---->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |<br/>
-+--------- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | <br/>
++---->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |<br/>
++--------- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | <br/>
 |	=========+<br/>
 |<br/>
 +--->deleting<br/>
