@@ -1,4 +1,4 @@
-# Implementing Queue with Stack
+# Queue and Stack
 
 The queue can be implemented with two stacks.
 
@@ -21,7 +21,7 @@ The queue can be implemented with two stacks.
 
 	- Elements are pushing to **top** and poping from the **top**.
 
-## How can the queue be implemented with stacks?
+## 1. How can the queue be implemented with stacks?
 
 We need two stacks for implementing queue.
 
@@ -37,3 +37,12 @@ However, if the second stack is empty, every elements need to move from stack1.
 
 On the other hands, if the second stack isn't empty, the queue should delete the elements from the second stack, before move from stack1.
 
+## 2. How can the stack be implemented with queue?
+
+Reference: https://code.i-harness.com/ko/q/a8094
+
+1) Stack implemented with two queues
+
+	File name: StackWithTwoQueue.java
+
+2) Stack implemented with one queues
