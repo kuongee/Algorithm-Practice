@@ -6,7 +6,7 @@ The queue can be implemented with two stacks.
 	- First In First Out
 
 	============================<br />
-	<pre>**head** <-     Queue    <- **tail** </pre><br />
+	**head** <-&nbsp;&nbsp;&nbsp;Queue&nbsp;&nbsp;&nbsp;<- **tail** <br />
 	============================<br />
 
 	- Inserting to **tail** / Deleting from **head**
