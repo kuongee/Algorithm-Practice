@@ -39,7 +39,7 @@ On the other hands, if the second stack isn't empty, the queue should delete the
 
 ## 2. How can the stack be implemented with queue?
 
-Reference: https://code.i-harness.com/ko/q/a8094
+Idea Reference: https://code.i-harness.com/ko/q/a8094
 
 1) Stack implemented with two queues
 

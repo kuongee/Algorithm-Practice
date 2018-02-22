@@ -5,7 +5,7 @@
  * The stack can be implemented with two queues.
  * One of queue is using as pushing and the other one is using as popping.
  * Elements are integers larger than zero.
- * Reference: https://code.i-harness.com/ko/q/a8094
+ * Idea Reference: https://code.i-harness.com/ko/q/a8094
  * */
 
 public class StackWithTwoQueue {
