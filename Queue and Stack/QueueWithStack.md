@@ -15,8 +15,8 @@ The queue can be implemented with two stacks.
 	- Last In First Out
 
 		==========+<br />
-	top <- pop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-            -> push&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+	top <- pop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br />
+            -> push&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br />
 	==========+<br />
 
 	- Elements are pushing to **top** and poping from the **top**.
@@ -37,17 +37,3 @@ However, if the second stack is empty, every elements need to move from stack1.
 
 On the other hands, if the second stack isn't empty, the queue should delete the elements from the second stack.
 
-+--_Inserting<br/>
-|	**stack1**<br/>
-|	=========+<br/>
-+---->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |<br/>
-+--------- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |   	   <br/>
-|	=========+<br/>
-|	<br/>
-|	**stack2**<br/>
-|	=========+<br/>
-+---->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |<br/>
-+--------- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | <br/>
-|	=========+<br/>
-|<br/>
-+--->deleting<br/>
