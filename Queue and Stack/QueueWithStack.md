@@ -5,24 +5,19 @@ The queue can be implemented with two stacks.
 1. Queue
 	- First In First Out
 
-	============================
-
-	head <-     Queue    <- tail
-
-	============================
+	============================&nbsp;
+	**head** <-     Queue    <- **tail** &nbsp;
+	============================&nbsp;
 
 	- Inserting to **tail** / Deleting from **head**
 
 2. Stack
 	- Last In First Out
 
-	============================+
-
-	top <-  pop		    |
-
-            ->  push	Stack	    |
-
-	============================+
+	============================+&nbsp;
+	top <-  pop		    |&nbsp;
+            ->  push	Stack	    |&nbsp;
+	============================+&nbsp;
 
 	- Elements are pushing to **top** and poping from the **top**.
 
