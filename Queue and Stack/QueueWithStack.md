@@ -37,8 +37,7 @@ However, if the second stack is empty, every elements need to move from stack1.
 
 On the other hands, if the second stack isn't empty, the queue should delete the elements from the second stack.
 
-Inserting<br/>
-|<br/>
++--_Inserting<br/>
 |	**stack1**<br/>
 |	=========+<br/>
 +---->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |<br/>
