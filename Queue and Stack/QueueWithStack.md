@@ -4,17 +4,17 @@ The queue can be implemented with two stacks.
 
 1. Queue
 	- First In First Out
-	____________________________
+	============================
 	head <-     Queue    <- tail
-	____________________________
+	============================
 	- Inserting to **tail** / Deleting from **head**
 
 2. Stack
 	- Last In First Out
-	____________________________
+	============================+
 	top <-  pop		    |
             ->  push	Stack	    |
-	____________________________|
+	============================+
 	- Elements are pushing to **top** and poping from the **top**.
 
 ##How can the queue be implemented with stacks?
