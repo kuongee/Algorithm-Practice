@@ -18,7 +18,7 @@ public class QuickSort {
 		if(left < index - 1)
 			sort(array, left, index-1);
 		if(right > index)
-			sort(array, index, right-1);
+			sort(array, index, right);
 		
 	}
 
