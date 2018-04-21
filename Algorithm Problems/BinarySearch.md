@@ -10,7 +10,7 @@ vs. Linear search : O(n)
 
 2. Iteration
 
-```
+```java
 public int BinarySearchRecursion(int sItem, int start, int end) {
     System.out.println(start + " " + end);
     if(start == end) 
