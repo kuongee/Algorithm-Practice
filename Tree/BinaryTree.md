@@ -15,18 +15,17 @@ Ex)
 
     Implement as recursion
 
-    1. Preorder
-      
-      A B C
+    1. Preorder : A B C
     
-    2. Inorder
+    2. Inorder : B A C
     
-      B A C
-    
-    3. Postorder
-
-      B C A
+    3. Postorder : B C A
 
   - BFS (Breadth First Search) (or Level order traversal)
 
+    Need queue
+
+
+#### Reference
+http://www.makeinjava.com/find-height-binary-tree-bfs-level-order-traversal-example/
 
