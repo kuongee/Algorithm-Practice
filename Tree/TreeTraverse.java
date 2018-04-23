@@ -17,10 +17,10 @@ class Node {
 	}
 }
 
-public class Tree {
+public class TreeTraverse {
 	Node root;
 	
-	public Tree() {
+	public TreeTraverse() {
 		Node A = new Node("A");
 		
 		Node B = new Node("B");
@@ -108,7 +108,7 @@ public class Tree {
 	}
 	
 	public static void main(String [] args) {
-		Tree tree = new Tree();
+		TreeTraverse tree = new TreeTraverse();
 		//tree.preorder(tree.root);
 		//tree.inorder(tree.root);
 		//tree.postorder(tree.root);
