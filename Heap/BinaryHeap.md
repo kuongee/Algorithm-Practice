@@ -11,13 +11,13 @@ Ex)
      C   D    E   
 ```
 
-#### Min heap
+#### - Min heap
 
 The value of Root is smallest value.
 
 The value of each node must smaller than its child nodes.
 
-#### Max heap
+#### - Max heap
 
 The value of Root is the maximum value.
 
