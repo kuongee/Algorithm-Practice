@@ -2,6 +2,12 @@
 
 Heap is a data structure based on complete binary tree.
 
+* Time complexity
+
+    Insert : O(log n)
+
+    Delete : O(log n)
+
 ```
 Ex)
           Root
@@ -24,6 +30,8 @@ The value of Root is the maximum value.
 The value of each node must larger than its child nodes.
 
 - Source Code: MaxHeap.java
+
+    Heap is made of array.
 
 ### Reference
 https://algorithms.tutorialhorizon.com/binary-min-max-heap/
