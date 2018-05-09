@@ -23,5 +23,7 @@ The value of Root is the maximum value.
 
 The value of each node must larger than its child nodes.
 
+- Source Code: MaxHeap.java
+
 ### Reference
 https://algorithms.tutorialhorizon.com/binary-min-max-heap/
