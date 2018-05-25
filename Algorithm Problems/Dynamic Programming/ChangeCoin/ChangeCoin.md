@@ -2,6 +2,8 @@
 
 * Problem: Programmers Level3. 거스름돈
 
+    - My Code: Solution.java
+
 ```
 EX) N = 5, Coin type = [1, 2, 5]
 Make N with given coins.
@@ -21,3 +23,5 @@ the ways to make n with previous coins(i-1)
 ```
 
 * Reference: https://algorithms.tutorialhorizon.com/dynamic-programming-coin-change-problem/
+
+* Similar Problem: BOJ 2293, 2294
